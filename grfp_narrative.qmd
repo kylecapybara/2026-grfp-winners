@@ -1,0 +1,66 @@
+---
+title: "2026 NSF GRFP Winners"
+subtitle: "Fields of study, institutional pathways, and Chemical Engineering outcomes"
+author: ""
+date: last-modified
+output-file: index.html
+format:
+  html:
+    theme: cosmo
+    css: grfp_narrative.css
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+    anchor-sections: true
+    embed-resources: false
+page-layout: article
+---
+
+This report summarizes how 2026 NSF GRFP awards are distributed across fields of study and institutional pathways.
+
+## Awards by field of study
+
+::: {.callout-note appearance="minimal"}
+Total awards by field, separated into matching-institution winners and winners with a non-null current institution that differs from the baccalaureate institution.
+:::
+
+![The 15 fields with the most awards.](figures/top-fields-total-awards.png){#fig-top-fields width="100%" fig-alt="Horizontal bars showing the 15 fields of study receiving the most awards."}
+
+![Institutional pathways among the 12 fields with the most awards.](figures/top-fields-institutional-pathways.png){#fig-field-pathways width="100%" fig-alt="Grouped horizontal bars comparing same-institution and different-institution winners across highly awarded fields."}
+
+::: {.table-responsive}
+{{< include field_of_study_award_breakdown.md >}}
+:::
+
+## Chemical Engineering first-year PhD student winners
+
+::: {.callout-note appearance="minimal"}
+Chemical Engineering winners with a non-null `Current Institution` that differs from their `Baccalaureate Institution`, counted by current institution.
+:::
+
+![The leading current institutions for Chemical Engineering first-year PhD student winners.](figures/chemical-engineering-first-year-phd-institutions.png){#fig-chem-e-phd-institutions width="100%" fig-alt="Horizontal bars showing the leading current institutions for Chemical Engineering first-year PhD student winners."}
+
+::: {.table-responsive}
+{{< include chemical_engineering_first_year_phd_by_current_institution.md >}}
+:::
+
+## Chemical Engineering winners at their baccalaureate institution
+
+::: {.callout-note appearance="minimal"}
+Chemical Engineering winners whose `Current Institution` equals their `Baccalaureate Institution`.
+:::
+
+::: {.table-responsive}
+{{< include chemical_engineering_same_institution_by_baccalaureate.md >}}
+:::
+
+## Chemical Engineering senior undergraduates
+
+::: {.callout-note appearance="minimal"}
+Chemical Engineering winners with a missing (`NaN`) `Current Institution`, indicating that no current institution was listed.
+:::
+
+::: {.table-responsive}
+{{< include chemical_engineering_seniors_by_baccalaureate.md >}}
+:::

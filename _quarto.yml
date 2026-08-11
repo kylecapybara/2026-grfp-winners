@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - grfp_narrative.qmd
+
+website:
+  title: "2026 NSF GRFP Winners"
+  site-url: "https://kylecapybara.github.io/2026-grfp-winners/"
+  repo-url: "https://github.com/kylecapybara/2026-grfp-winners"
+  repo-actions: [source]
+  page-footer:
+    left: "2026 NSF Graduate Research Fellowship Program award analysis"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: grfp_narrative.css
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    smooth-scroll: true
+    anchor-sections: true
+
+execute:
+  freeze: auto

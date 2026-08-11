@@ -1,0 +1,51 @@
+/* Keep the report compact while giving long institution names room to breathe. */
+.quarto-title-block {
+  margin-bottom: 2rem;
+}
+
+.quarto-title-block .subtitle {
+  color: #5c6770;
+  max-width: 48rem;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  border-bottom: 1px solid #d9e2e8;
+  padding-bottom: 0.35rem;
+}
+
+.callout {
+  margin: 0.75rem 0 1rem;
+}
+
+.quarto-figure {
+  margin: 1.5rem 0 2rem;
+}
+
+.quarto-figure figcaption {
+  color: #5c6770;
+  font-size: 0.9rem;
+}
+
+table {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+table th {
+  white-space: nowrap;
+}
+
+table td:first-child {
+  min-width: 18rem;
+}
+
+@media (max-width: 900px) {
+  table {
+    font-size: 0.82rem;
+  }
+
+  table th {
+    white-space: normal;
+  }
+}
