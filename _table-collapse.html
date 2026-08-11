@@ -1,0 +1,48 @@
+<script>
+(() => {
+  const visibleRows = 5;
+
+  const initializeCollapsibleTables = () => {
+    document.querySelectorAll("main table").forEach((table, tableIndex) => {
+      const body = table.tBodies[0];
+      if (!body || body.rows.length <= visibleRows) return;
+
+      const rows = Array.from(body.rows);
+      const hiddenRows = rows.slice(visibleRows);
+      const tableId = table.id || `collapsible-table-${tableIndex + 1}`;
+      table.id = tableId;
+
+      hiddenRows.forEach((row) => {
+        row.hidden = true;
+      });
+
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "table-toggle";
+      button.setAttribute("aria-controls", tableId);
+      button.setAttribute("aria-expanded", "false");
+      button.textContent = `Show ${hiddenRows.length} more rows`;
+
+      button.addEventListener("click", () => {
+        const expanded = button.getAttribute("aria-expanded") === "true";
+        hiddenRows.forEach((row) => {
+          row.hidden = expanded;
+        });
+        button.setAttribute("aria-expanded", String(!expanded));
+        button.textContent = expanded
+          ? `Show ${hiddenRows.length} more rows`
+          : "Show fewer rows";
+      });
+
+      const responsiveContainer = table.closest(".table-responsive");
+      (responsiveContainer || table).insertAdjacentElement("afterend", button);
+    });
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initializeCollapsibleTables);
+  } else {
+    initializeCollapsibleTables();
+  }
+})();
+</script>

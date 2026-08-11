@@ -40,6 +40,31 @@ table td:first-child {
   min-width: 18rem;
 }
 
+.table-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin: -1rem 0 2rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #0072b2;
+  border-radius: 0.35rem;
+  background: transparent;
+  color: #0072b2;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.table-toggle:hover {
+  background: #0072b2;
+  color: #fff;
+}
+
+.table-toggle:focus-visible {
+  outline: 3px solid #e69f00;
+  outline-offset: 2px;
+}
+
 @media (max-width: 900px) {
   table {
     font-size: 0.82rem;

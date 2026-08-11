@@ -15,6 +15,7 @@ format:
     smooth-scroll: true
     anchor-sections: true
     embed-resources: false
+    include-after-body: _table-collapse.html
 page-layout: article
 ---
 
