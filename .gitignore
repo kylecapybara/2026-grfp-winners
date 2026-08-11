@@ -6,7 +6,6 @@ __pycache__/
 
 # Raw person-level source data and notebook outputs stay local.
 /awards.csv
-/grfp.ipynb
 
 # Locally rendered single-document output superseded by the Quarto website build.
 /grfp_narrative.html

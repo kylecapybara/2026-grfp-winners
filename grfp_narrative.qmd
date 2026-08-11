@@ -45,17 +45,17 @@ Chemical Engineering winners with a non-null `Current Institution` that differs 
 {{< include chemical_engineering_first_year_phd_by_current_institution.md >}}
 :::
 
-## Chemical Engineering winners at their baccalaureate institution
+## Chemical Engineering senior undergraduates
 
 ::: {.callout-note appearance="minimal"}
-Chemical Engineering winners whose `Current Institution` equals their `Baccalaureate Institution`.
+Chemical Engineering winners whose `Current Institution` equals their `Baccalaureate Institution`, meaning the winner was a senior undergraduate.
 :::
 
 ::: {.table-responsive}
 {{< include chemical_engineering_same_institution_by_baccalaureate.md >}}
 :::
 
-## Chemical Engineering senior undergraduates
+## Other winners (gap year etc.)
 
 ::: {.callout-note appearance="minimal"}
 Chemical Engineering winners with a missing (`NaN`) `Current Institution`, indicating that no current institution was listed.
