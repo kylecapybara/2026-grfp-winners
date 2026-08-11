@@ -11,7 +11,7 @@ format:
     css: grfp_narrative.css
     toc: true
     toc-location: left
-    toc-depth: 2
+    toc-depth: 3
     smooth-scroll: true
     anchor-sections: true
     embed-resources: false
@@ -76,21 +76,20 @@ Overall 9 (8.3%) Chemical Engineering winners were Goldwater scholars. Among sen
 
 Using the [2025 Goldwater scholars page](https://goldwaterscholarship.gov/2025-scholars/), I count 10 scholars whose career-goal text reference Chemical Engineering in any way.
 
-| 2025 Goldwater scholar | Chemical engineering wording | Also in 2026 GRFP CSV? |
+| 2025 Goldwater scholar | Current institution | 2026 GRFP? |
 |---|---|---|
-| Arras, Jacob | Biomolecular and Chemical Engineering | No |
-| Badinger, Zachary | Chemical Engineering | Yes |
-| Dahlgren, Sofia | Chemical Engineering | Yes |
-| Garzon, Alexandra | chemical engineering | No |
-| Noonan, Caitlin | Chemical Engineering | No |
-| Reilly, Nicholas | Chemical Engineering | Yes |
-| Salgado, Marco | teach chemical engineering | No |
-| Schulte, Samantha | Chemical Engineering | Yes |
-| Slaughter, Elliott | Chemical Engineering | No |
-| Sullivan, Jack | Chemical Engineering | No |
+| Arras, Jacob | The University of Texas at San Antonio | No |
+| Badinger, Zachary | Pennsylvania State University-Main Campus | Yes |
+| Dahlgren, Sofia | University of Washington-Seattle Campus | Yes |
+| Garzon, Alexandra | Stevens Institute of Technology | No |
+| Noonan, Caitlin | University of Connecticut | No |
+| Reilly, Nicholas | University at Buffalo | Yes |
+| Salgado, Marco | Colorado School of Mines | No |
+| Schulte, Samantha | Michigan State University | Yes |
+| Slaughter, Elliott | University of North Texas | No |
+| Sullivan, Jack | University of New Hampshire-Main Campus | No |
 
 So 4 of 10 cheme Goldwater scholars also got the 2026 GRFP.
-
 
 ## Other winners (gap year etc.)
 
@@ -101,4 +100,3 @@ Chemical Engineering winners with a missing (`NaN`) `Current Institution`, indic
 ::: {.table-responsive}
 {{< include chemical_engineering_seniors_by_baccalaureate.md >}}
 :::
-
