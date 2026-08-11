@@ -6,11 +6,11 @@ The published Quarto report is available at <https://kylecapybara.github.io/2026
 
 ## Reproduce the analysis
 
-The public repository intentionally excludes the person-level `awards.csv` source data and the name-bearing Jupyter notebook. With a local copy of `awards.csv`, install the Python dependencies and regenerate the 600-DPI figures:
+The public repository intentionally excludes the person-level `awards.csv` source data. The cleared-output Jupyter notebook contains the full analysis and visualization workflow. With a local copy of `awards.csv`, install the Python dependencies and execute the notebook to regenerate the aggregate tables and 600-DPI figures:
 
 ```bash
 python -m pip install -r requirements.txt
-python make_visualizations.py
+jupyter nbconvert --to notebook --execute --inplace grfp.ipynb
 ```
 
 Render the report from the committed aggregate tables and figures:
@@ -19,4 +19,3 @@ Render the report from the committed aggregate tables and figures:
 quarto render
 ```
 
-The charts use the colorblind-safe Okabe–Ito palette. Every bar chart is exported at 600 DPI with black bar edges.
