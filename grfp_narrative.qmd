@@ -4,6 +4,7 @@ subtitle: "Fields of study, institutional pathways, and Chemical Engineering out
 author: ""
 date: last-modified
 output-file: index.html
+lightbox: true
 format:
   html:
     theme: cosmo
