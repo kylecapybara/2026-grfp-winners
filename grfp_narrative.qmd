@@ -1,9 +1,10 @@
 ---
 title: "2026 NSF GRFP Winners"
 subtitle: "Fields of study, institutional pathways, and Chemical Engineering outcomes"
-author: ""
+author: Kyle Wodehouse
 date: last-modified
 output-file: index.html
+lightbox: true
 format:
   html:
     theme: cosmo
