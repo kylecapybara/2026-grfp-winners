@@ -1,6 +1,6 @@
 ---
 title: "2026 NSF GRFP Winners"
-subtitle: "Fields of study, institutional pathways, and Chemical Engineering outcomes"
+subtitle: "Fields of study and Chemical Engineering outcomes"
 author: Kyle Wodehouse
 date: last-modified
 output-file: index.html
@@ -18,12 +18,12 @@ format:
 page-layout: article
 ---
 
-This report summarizes how 2026 NSF GRFP awards are distributed across fields of study and institutional pathways.
+
 
 ## Awards by field of study
 
 ::: {.callout-note appearance="minimal"}
-Total awards by field, separated into matching-institution winners and winners with a non-null current institution that differs from the baccalaureate institution.
+Total awards by field, separated into senior undergrads and 1st year grad students.
 :::
 
 ![The 15 fields with the most awards.](figures/top-fields-total-awards.png){#fig-top-fields width="100%" fig-alt="Horizontal bars showing the 15 fields of study receiving the most awards."}
@@ -56,6 +56,23 @@ Chemical Engineering winners whose `Current Institution` equals their `Baccalaur
 {{< include chemical_engineering_same_institution_by_baccalaureate.md >}}
 :::
 
+### Goldwaters?
+
+| Name | Goldwater year | Senior undergrad |
+|---|---:|---|
+| Dahlgren, Sofia | 2025 | Yes |
+| Nguyen, Paul | 2024 | No |
+| McNally, Delaney | 2024 | No |
+| Jena, Anika Mahajan | 2024 | Yes |
+| Noel, Jared | 2025 | Yes |
+| Reilly, Nicholas J | 2025 | Yes |
+| Badinger, Zachary Scott | 2025 | Yes |
+| Schulte, Samantha | 2025 | Yes |
+| Victorio, Clara Gabriel | 2024 | No |
+
+Overall 9 (8.3%) Chemical Engineering winners were Goldwater scholars. Among senior undergrads 6 (13.3%) were Goldwater scholars.
+
+
 ## Other winners (gap year etc.)
 
 ::: {.callout-note appearance="minimal"}
@@ -65,3 +82,4 @@ Chemical Engineering winners with a missing (`NaN`) `Current Institution`, indic
 ::: {.table-responsive}
 {{< include chemical_engineering_seniors_by_baccalaureate.md >}}
 :::
+
