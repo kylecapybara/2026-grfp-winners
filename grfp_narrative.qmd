@@ -101,3 +101,43 @@ Chemical Engineering winners with a missing (`NaN`) `Current Institution`, indic
 ::: {.table-responsive}
 {{< include chemical_engineering_seniors_by_baccalaureate.md >}}
 :::
+
+## Awards given each year
+
+![](figures/annual-award-counts.png){width="100%"}
+
+## Awards by inferred career stage
+
+![](figures/annual-awards-by-inferred-stage.png){width="100%"}
+
+## Career-stage trend among classified awardees
+
+![](figures/inferred-career-stage-share.png){width="100%"}
+
+## Leading graduate-school destinations
+
+![](figures/graduate-destination-heatmap.png){width="100%"}
+
+## Concentration at current institutions
+
+![](figures/current-institution-concentration.png){width="100%"}
+
+## Leading baccalaureate institutions
+
+![](figures/baccalaureate-source-heatmap.png){width="100%"}
+
+## Broad-field mix over time
+
+![](figures/broad-field-share-over-time.png){width="100%"}
+
+## Engineering topics over time
+
+![](figures/engineering-topic-share-over-time.png){width="100%"}
+
+## Leading engineering topics over time
+
+![](figures/leading-engineering-topic-share-over-time.png){width="100%"}
+
+## Mechanical, Chemical, and Biomedical Engineering awards
+
+![](figures/selected-engineering-topic-award-counts.png){width="100%"}
